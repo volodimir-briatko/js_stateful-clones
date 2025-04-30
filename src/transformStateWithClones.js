@@ -6,7 +6,7 @@
  *
  * @return {Object[]}
  */
-function transformstateWithClones(state, actions) {
+function transformStateWithClones(state, actions) {
   let currentState = { ...state };
   const history = [];
 
@@ -29,4 +29,4 @@ function transformstateWithClones(state, actions) {
   return history;
 }
 
-module.exports = transformstateWithClones;
+module.exports = transformStateWithClones;
